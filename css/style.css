@@ -1,0 +1,137 @@
+
+/*
+font-family: 'Arvo', serif;
+font-family: 'Kaushan Script', cursive;
+*/
+
+
+body{
+  text-align: center;
+  font-family: 'Arvo', serif;
+  background-color: #000;
+  position: absolute;
+}
+
+
+.background{
+  background-image: linear-gradient( to bottom right, #2a52be, #80ffff );
+  margin: 5%;
+}
+
+span {
+  color: #343434;
+  text-decoration: underline;
+}
+
+.spacing {
+  padding: 5% 10%;
+  margin-top: 0;
+}
+.title-color {
+  color: #343434;
+  font-weight: 800;
+}
+.title-background {
+  margin-bottom: -8px;
+}
+.row-centering {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2%;
+}
+.footer-icons {
+ color: grey;
+}
+.parag-color-font {
+color: #ff8080 ;
+line-height: 1.5;
+}
+
+/* Title Section */
+
+
+.title-size{
+  font-weight: bold;
+}
+.container-fluid {
+ margin-left: 0.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5rem;
+  color: #ff8080;
+}
+.link {
+  color: #343434;
+}
+
+.title-image2 {
+ transform: rotateY(180deg);
+}
+.title-tab {
+  padding: 10% 2% 0;
+}
+.para-title {
+  font-weight:300;
+  font-family: 'Arvo', serif;;
+  font-size: 1.675rem;
+  color: #181818;
+}
+
+/* Testimonials Section */
+
+ .card-color{
+  background-color: #343434;
+}
+
+
+.card-foot {
+  width: 80%;
+  margin: 5% 10%;
+}
+.img-card{
+width: 600px;
+height: 400px;
+}
+
+/* Worksdone Section */
+.carousel-item {
+  padding: 10% 10% 5%;
+}
+.lateral-img1 {
+  position: relative;
+  width: 200px;
+  right: 53.4375rem;
+  transform: rotateY(180deg)
+}
+.lateral-img2 {
+  position: relative;
+  width: 200px;
+  left: 53.375rem;
+}
+/* footer section */
+
+.icon-ff {
+  background-image : url(../images/FF14.png);
+  background-size: cover;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.fa-discord {
+  margin-right: 10px;
+}
+.footer-row {
+  padding-bottom: 2rem
+}
+
+.btn {
+  text-align: center;
+  margin: 10px;
+}
+.copyright {
+  padding: 1.2rem;
+}
